@@ -175,7 +175,7 @@ function App() {
             </div>
             <div className="users-grid">
               {users.slice(0, 6).map((user) => (
-                <div key={user.id} className="user-card">
+                <div key={user._id} className="user-card">
                   <div className="user-avatar">
                     <span>
                       {user.name ? user.name.charAt(0).toUpperCase() : 'U'}
